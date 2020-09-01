@@ -1,13 +1,21 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FabModal.js</title>
     <link id="theme_css" rel="stylesheet" href="assets/css/default.css">
+    <link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.min.css">
+    <!-- Script -->
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- FabModal -->
+    <link rel="stylesheet" href="../FabModal/src/assets/css/main.css">
+    <script src="./../FabModal/src/js/FabModal.js"></script>
+
     <script src="assets/js/app.js" defer></script>
+    <script src="https://kit.fontawesome.com/86d34eeefa.js" crossorigin="anonymous" defer SameSite=None></script>
 </head>
 
 <body>
@@ -20,50 +28,71 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#examples">Examples</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
+                        <a class="nav-link" href="#get-started">Get Started</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        <a class="nav-link" href="#documentation">Documentation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#changelog">Changelog</a>
                     </li>
                 </ul>
                 <form class="d-flex">
-                    <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-secondary" type="submit">Search</button>
+                    <a class="btn btn-light mr-3 shadow-none" title="See repo of FabModal !"
+                        href="https://github.com/fabienwnklr/FabWindow" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a class="btn btn-light mr-3 shadow-none" title="Visit my LinkedIn !"
+                        href="https://www.linkedin.com/in/fabien-winkler/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <input type="checkbox" class="btn-check" id="changeTheme" autocomplete="off">
+                    <label class="btn btn-outline-dark" for="changeTheme">
+                        <i class="fa fa-sun"></i>
+                    </label>
                 </form>
             </div>
         </div>
     </nav>
 
 
+    <!-- Main content start -->
     <main class="container">
-        <section>
-            <article id="about">
-                <div class="form-check form-switch">
-                    <input class="form-check-input" type="checkbox" id="toggleTheme">
-                    <label class="form-check-label" for="toggleTheme">Default switch checkbox input</label>
+        <section class="row">
+            <!--  Example article start -->
+            <article id="examples" class="col-lg-12 col-md-6 col-sm-12 mt-5">
+                <div class="text-center mb-3">
+                    <span class="small">JavaScript</span>
+                    <h1 class="d-inline-block">
+                        FabModal
+                    </h1>
+                    <span class="small">V1.0</span>
+                </div>
+                <div class="shadow-lg rounded p-3 text-center">
+                        <h2 class="h6">Examples :</h2>
+                        <div class="btn-group mt-5" role="group" aria-label="Basic example">
+                            <button id="default" type="button" class="btn btn-secondary">Default modal</button>
+                            <button id="timeout" type="button" class="btn btn-secondary">Timeout close</button>
+                            <button id="iframe" type="button" class="btn btn-secondary">With iFrame</button>
+                            <button id="all" class="btn btn-secondary">All options</button>
+                        </div>
+                </div>
+                <!--  Example article end -->
+            </article>
+
+            <!-- Documentation -->
+            <article id="documentation" class="col-lg-12 col-md-6 col-sm-12">
+                <div>
+                    <h2></h2>
                 </div>
             </article>
-            <article></article>
-            <article></article>
+            <article id="changelog" class="col-lg-12 col-md-6 col-sm-12"></article>
         </section>
     </main>
+    <!--  Main content end -->
 </body>
 
 </html>
