@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@tommijonasar/ft-syntax-highlight": "^1.0.0",
     "bootstrap": "^5.0.0-alpha1",
     "font-awesome": "^4.7.0"
   }

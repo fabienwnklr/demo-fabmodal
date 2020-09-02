@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@tommijonasar/ft-syntax-highlight@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@tommijonasar/ft-syntax-highlight/-/ft-syntax-highlight-1.0.0.tgz#6a4fd52828b1f2e1912dfabf2ef3c6c435fc2f2a"
+  integrity sha512-/nTLaxiRVXayCXlQRiAdRa4a/hwa1GTfktQErn8jFm1WUuLbubRkrffgd0YHh7elV2ZEGkKi3hmQMOKXYa1mkg==
+
 bootstrap@^5.0.0-alpha1:
   version "5.0.0-alpha1"
   resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-5.0.0-alpha1.tgz#cd35be4282bc930322bcbf1db23a8729c60a31cb"
