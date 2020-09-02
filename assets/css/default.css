@@ -12694,6 +12694,12 @@ input,
 button {
   -webkit-font-smoothing: antialiased;
   letter-spacing: 0.1px;
+  outline: none;
+}
+body:focus,
+input:focus,
+button:focus {
+  outline: none;
 }
 
 p {

@@ -154,7 +154,6 @@ $web-font-path: "https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;50
 @import url($web-font-path);
 
 // Effects =====================================================================
-
 @mixin ripple($color) {
     position: relative;
 
@@ -366,6 +365,11 @@ input,
 button {
     -webkit-font-smoothing: antialiased;
     letter-spacing: .1px;
+    outline: none;
+
+     &:focus {
+         outline: none;
+     }
 }
 
 p {

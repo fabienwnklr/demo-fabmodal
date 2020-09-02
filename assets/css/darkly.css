@@ -4972,7 +4972,7 @@ button.close {
   background-color: #444;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0.5rem 1rem rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(10px);
   opacity: 0;
   border-radius: 0.25rem;
@@ -6039,15 +6039,15 @@ button.close {
 }
 
 .shadow {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  box-shadow: 0 0.5rem 1rem rgba(255, 255, 255, 0.15) !important;
 }
 
 .shadow-sm {
-  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  box-shadow: 0 0.125rem 0.25rem rgba(255, 255, 255, 0.075) !important;
 }
 
 .shadow-lg {
-  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+  box-shadow: 0 1rem 3rem rgba(255, 255, 255, 0.175) !important;
 }
 
 .shadow-none {
@@ -12041,7 +12041,7 @@ progress {
 }
 .navbar {
   border: none;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 2px rgba(255, 255, 255, 0.3);
 }
 .navbar-brand {
   font-size: 24px;
@@ -12090,13 +12090,13 @@ progress {
 }
 .btn-primary:focus {
   background-color: #375a7f;
-  box-shadow: 0 0 0 2px rgba(204, 204, 204, 0.5);
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5);
 }
 .btn-primary:hover, .btn-primary:active:hover {
   background-color: #2e4b6a;
 }
 .btn-primary:active {
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.4);
 }
 .btn-primary:after {
   content: "";
@@ -12158,13 +12158,13 @@ progress {
 }
 .btn-secondary:focus {
   background-color: #444;
-  box-shadow: 0 0 0 2px rgba(204, 204, 204, 0.5);
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5);
 }
 .btn-secondary:hover, .btn-secondary:active:hover {
   background-color: #353535;
 }
 .btn-secondary:active {
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.4);
 }
 .btn-secondary:after {
   content: "";
@@ -12226,13 +12226,13 @@ progress {
 }
 .btn-success:focus {
   background-color: #00bc8c;
-  box-shadow: 0 0 0 2px rgba(204, 204, 204, 0.5);
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5);
 }
 .btn-success:hover, .btn-success:active:hover {
   background-color: #009d75;
 }
 .btn-success:active {
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.4);
 }
 .btn-success:after {
   content: "";
@@ -12294,13 +12294,13 @@ progress {
 }
 .btn-info:focus {
   background-color: #3498db;
-  box-shadow: 0 0 0 2px rgba(204, 204, 204, 0.5);
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5);
 }
 .btn-info:hover, .btn-info:active:hover {
   background-color: #2489cc;
 }
 .btn-info:active {
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.4);
 }
 .btn-info:after {
   content: "";
@@ -12362,13 +12362,13 @@ progress {
 }
 .btn-warning:focus {
   background-color: #f39c12;
-  box-shadow: 0 0 0 2px rgba(204, 204, 204, 0.5);
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5);
 }
 .btn-warning:hover, .btn-warning:active:hover {
   background-color: #db8b0b;
 }
 .btn-warning:active {
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.4);
 }
 .btn-warning:after {
   content: "";
@@ -12430,13 +12430,13 @@ progress {
 }
 .btn-danger:focus {
   background-color: #e74c3c;
-  box-shadow: 0 0 0 2px rgba(204, 204, 204, 0.5);
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5);
 }
 .btn-danger:hover, .btn-danger:active:hover {
   background-color: #e43321;
 }
 .btn-danger:active {
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.4);
 }
 .btn-danger:after {
   content: "";
@@ -12498,13 +12498,13 @@ progress {
 }
 .btn-dark:focus {
   background-color: #303030;
-  box-shadow: 0 0 0 2px rgba(204, 204, 204, 0.5);
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5);
 }
 .btn-dark:hover, .btn-dark:active:hover {
   background-color: #212121;
 }
 .btn-dark:active {
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.4);
 }
 .btn-dark:after {
   content: "";
@@ -12566,13 +12566,13 @@ progress {
 }
 .btn-light:focus {
   background-color: #adb5bd;
-  box-shadow: 0 0 0 2px rgba(204, 204, 204, 0.5);
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5);
 }
 .btn-light:hover, .btn-light:active:hover {
   background-color: #9ca6af;
 }
 .btn-light:active {
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.4);
 }
 .btn-light:after {
   content: "";
@@ -12632,7 +12632,7 @@ progress {
 .btn {
   text-transform: uppercase;
   border: none;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 1px 4px rgba(255, 255, 255, 0.4);
   transition: all 0.4s;
 }
 .btn-link {
@@ -12700,6 +12700,12 @@ input,
 button {
   -webkit-font-smoothing: antialiased;
   letter-spacing: 0.1px;
+  outline: none;
+}
+body:focus,
+input:focus,
+button:focus {
+  outline: none;
 }
 
 p {

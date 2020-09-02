@@ -19,80 +19,113 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-light sticky-top bg-light">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#examples">Examples</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#get-started">Get Started</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#documentation">Documentation</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#changelog">Changelog</a>
-                    </li>
-                </ul>
-                <form class="d-flex">
-                    <a class="btn btn-light mr-3 shadow-none" title="See repo of FabModal !"
-                        href="https://github.com/fabienwnklr/FabWindow" target="_blank">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a class="btn btn-light mr-3 shadow-none" title="Visit my LinkedIn !"
-                        href="https://www.linkedin.com/in/fabien-winkler/" target="_blank">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <input type="checkbox" class="btn-check" id="changeTheme" autocomplete="off">
-                    <label class="btn btn-outline-dark" for="changeTheme">
-                        <i class="fa fa-sun"></i>
-                    </label>
-                </form>
+<!-- Main content start -->
+<main>
+    <section class="vh-100">
+        <header>
+            <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#examples">Examples</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#get-started">Get Started</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#documentation">Documentation</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#changelog">Changelog</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <a class="btn btn-light mr-3 shadow-none" title="See repo of FabModal !"
+                               href="https://github.com/fabienwnklr/FabWindow" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a class="btn btn-light mr-3 shadow-none" title="Visit my LinkedIn !"
+                               href="https://www.linkedin.com/in/fabien-winkler/" target="_blank">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <button id="changeTheme" type="button" class="btn btn-outline-primary">
+                                <i class="fa fa-sun"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--  Example article start -->
+        <article id="examples" class="col-12 pt-5 my-5">
+            <div class="p-3 text-center">
+                <span class="small">JavaScript</span>
+                <h1 class="d-inline-block">
+                    FabModal
+                </h1>
+                <span class="small">V1.0</span>
+                <h2 class="h6">Examples :</h2>
+                <div class="container">
+                    <div class="row mt-5" role="group" aria-label="examples">
+                        <button id="default" type="button" class="btn btn-secondary col rounded-0">Default modal</button>
+                        <button id="timeout" type="button" class="btn btn-secondary col rounded-0">Timeout close</button>
+                        <button id="iframe" type="button" class="btn btn-secondary col rounded-0">With iFrame</button>
+                        <button id="large" type="button" class="btn btn-secondary col rounded-0">With large content</button>
+                        <button id="fullscreen" type="button" class="btn btn-secondary col rounded-0">Open fullscreen</button>
+                        <button id="all" class="btn btn-secondary col rounded-0">All options</button>
+                    </div>
+                </div>
             </div>
-        </div>
-    </nav>
+            <!--  Example article end -->
+        </article>
+    </section>
 
-
-    <!-- Main content start -->
-    <main class="container">
+    <!-- Main content-->
+    <div class="container">
         <section class="row">
-            <!--  Example article start -->
-            <article id="examples" class="col-lg-12 col-md-6 col-sm-12 mt-5">
-                <div class="text-center mb-3">
-                    <span class="small">JavaScript</span>
-                    <h1 class="d-inline-block">
-                        FabModal
-                    </h1>
-                    <span class="small">V1.0</span>
-                </div>
-                <div class="shadow-lg rounded p-3 text-center">
-                        <h2 class="h6">Examples :</h2>
-                        <div class="btn-group mt-5" role="group" aria-label="Basic example">
-                            <button id="default" type="button" class="btn btn-secondary">Default modal</button>
-                            <button id="timeout" type="button" class="btn btn-secondary">Timeout close</button>
-                            <button id="iframe" type="button" class="btn btn-secondary">With iFrame</button>
-                            <button id="all" class="btn btn-secondary">All options</button>
-                        </div>
-                </div>
-                <!--  Example article end -->
-            </article>
+
 
             <!-- Documentation -->
-            <article id="documentation" class="col-lg-12 col-md-6 col-sm-12">
+            <article id="get-started" class="col-12 mb-5">
                 <div>
-                    <h2></h2>
+                    <h2 class="text-center text-secondary">Get started</h2>
+
+                    <div class="shadow-lg container rounded">
+                        <div class="row">
+                            <div class="col-12 pt-2">
+                                Using npm : 
+                            </div>
+                            <div class="col-12 border-bottom pb-2">
+                                <code>npm i fabmodal --save</code>
+                            </div>
+                            <div class="col-12 pt-2">
+                                Using yarn : 
+                            </div>
+                            <div class="col-12 pb-2">
+                                <code>yard add fabmodal</code>
+                            </div>
+                            <!-- <div class="col-12 pt-2">
+
+                            </div>
+                            <div class="col-12 pb-2">
+
+                            </div> -->
+                        </div>
+                    </div>
                 </div>
             </article>
             <article id="changelog" class="col-lg-12 col-md-6 col-sm-12"></article>
         </section>
-    </main>
-    <!--  Main content end -->
+    </div>
+</main>
+<!--  Main content end -->
 </body>
 
 </html>
